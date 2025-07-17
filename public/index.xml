@@ -2,19 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ням Ням</title>
-    <link>http://localhost:1313/</link>
+    <link>https://b.nymk.ru/</link>
     <description>Recent content on Ням Ням</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 17 Jul 2025 19:54:38 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2025 19:54:38 +0300</lastBuildDate>
+    <atom:link href="https://b.nymk.ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pervaya</title>
-      <link>http://localhost:1313/posts/pervaya/</link>
-      <pubDate>Thu, 17 Jul 2025 19:54:38 +0300</pubDate>
-      <guid>http://localhost:1313/posts/pervaya/</guid>
-      <description>&lt;h1 id=&#34;это-пой-первый-пост-тест-какака&#34;&gt;Это пой первый пост, тест какака&lt;/h1&gt;
-&lt;p&gt;страннная фигня&lt;/p&gt;</description>
+      <title>Добро пожаловать на мой кулинарный блог!</title>
+      <link>https://b.nymk.ru/posts/pervaya/</link>
+      <pubDate>Mon, 27 Jan 2025 19:54:38 +0300</pubDate>
+      <guid>https://b.nymk.ru/posts/pervaya/</guid>
+      <description>Первый пост о создании блога и планах на будущее</description>
+    </item>
+    <item>
+      <title>Контакты</title>
+      <link>https://b.nymk.ru/contacts/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://b.nymk.ru/contacts/</guid>
+      <description>&lt;h1 id=&#34;контакты&#34;&gt;Контакты&lt;/h1&gt;
+&lt;p&gt;Рада общению и всегда открыта для новых знакомств!&lt;/p&gt;
+&lt;h2 id=&#34;как-со-мной-связаться&#34;&gt;Как со мной связаться&lt;/h2&gt;
+&lt;h3 id=&#34;-социальные-сети&#34;&gt;📱 Социальные сети&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Telegram&lt;/strong&gt;: &lt;a href=&#34;https://t.me/your_channel&#34;&gt;@your_channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/nyamka10&#34;&gt;nyamka10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-электронная-почта&#34;&gt;💌 Электронная почта&lt;/h3&gt;
+&lt;p&gt;Напишите мне на почту: &lt;a href=&#34;mailto:your-email@example.com&#34;&gt;your-email@example.com&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;-сотрудничество&#34;&gt;🤝 Сотрудничество&lt;/h3&gt;
+&lt;p&gt;Интересны следующие темы для сотрудничества:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Обзоры кулинарных книг&lt;/li&gt;
+&lt;li&gt;Тестирование кухонной техники&lt;/li&gt;
+&lt;li&gt;Обмен рецептами&lt;/li&gt;
+&lt;li&gt;Гостевые посты&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-предложения-и-идеи&#34;&gt;📝 Предложения и идеи&lt;/h3&gt;
+&lt;p&gt;Если у вас есть:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Интересные рецепты для публикации&lt;/li&gt;
+&lt;li&gt;Идеи для новых статей&lt;/li&gt;
+&lt;li&gt;Вопросы по кулинарии&lt;/li&gt;
+&lt;li&gt;Предложения по улучшению сайта&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Не стесняйтесь обращаться!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;С уважением, Ням Ням&lt;/em&gt; 🍀&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обо мне</title>
+      <link>https://b.nymk.ru/about/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://b.nymk.ru/about/</guid>
+      <description>&lt;h1 id=&#34;обо-мне&#34;&gt;Обо мне&lt;/h1&gt;
+&lt;p&gt;Привет! 👋&lt;/p&gt;
+&lt;p&gt;Меня зовут Ням Ням, и это мой персональный блог о еде, рецептах и всём, что связано с кулинарией.&lt;/p&gt;
+&lt;h2 id=&#34;что-вы-найдёте-здесь&#34;&gt;Что вы найдёте здесь&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🍳 Простые и вкусные рецепты&lt;/li&gt;
+&lt;li&gt;📸 Фотографии блюд&lt;/li&gt;
+&lt;li&gt;💡 Кулинарные советы и лайфхаки&lt;/li&gt;
+&lt;li&gt;🌿 Истории о еде и путешествиях&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;связаться-со-мной&#34;&gt;Связаться со мной&lt;/h2&gt;
+&lt;p&gt;Если у вас есть вопросы или предложения, не стесняйтесь писать!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Готовьте с удовольствием!&lt;/em&gt; ❤️&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
