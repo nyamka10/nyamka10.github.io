@@ -1,7 +1,12 @@
-baseURL = "https://nyamka10.github.io/"
+baseURL = "https://b.nymk.ru/"
 languageCode = "ru"
-title = "Мой блог"
+title = "Ням Ням"
 theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+sectionPagesMenu = "main"
 
 [params]
   defaultTheme = "auto"
@@ -9,9 +14,31 @@ theme = "PaperMod"
   ShowPostNavLinks = true
 
 [menu]
+
   [[menu.main]]
-    identifier = "posts"
-    name = "Блог"
-    url = "/posts/"
+    name = "Главная"
+    url = "/"
     weight = 1
+
+  [[menu.main]]
+    name = "Обо мне"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contacts/"
+    weight = 3
+
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/nyamka10"
+    weight = 4
+    params = { icon = "github" }
+
+  [[menu.main]]
+    name = "Telegram"
+    url = "https://t.me/your_channel"
+    weight = 5
+    params = { icon = "telegram" }
 
