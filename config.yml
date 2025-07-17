@@ -1,0 +1,188 @@
+baseURL: "https://b.nymk.ru"
+title: "IT блог — DevOps, Программирование, Инструкции"
+languageCode: "ru"
+defaultContentLanguage: "ru"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  ru:
+    languageName: "Русский"
+    contentDir: content
+    weight: 1
+    # dir: rtl
+    homeInfoParams:
+      Title: "Привет! 👋"
+      Content: |
+        Добро пожаловать на мой IT блог!
+        
+        Здесь вы найдёте статьи о DevOps, программировании, настройке инфраструктуры,
+        технические инструкции и мой опыт разработки.
+
+    menu:
+      main:
+        - identifier: posts
+          name: Статьи
+          url: /posts/
+          weight: 10
+        - identifier: devops
+          name: DevOps
+          url: /categories/devops/
+          weight: 15
+        - identifier: programming
+          name: Программирование
+          url: /categories/programming/
+          weight: 20
+        - identifier: tutorials
+          name: Инструкции
+          url: /categories/tutorials/
+          weight: 25
+        - identifier: categories
+          name: Категории
+          url: /categories/
+          weight: 30
+        - identifier: tags
+          name: Теги
+          url: /tags/
+          weight: 40
+        - identifier: about
+          name: Обо мне
+          url: /about/
+          weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+paginate: 10
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "IT блог о DevOps, программировании, технических инструкциях и опыте разработки"
+  keywords: [блог, IT, DevOps, программирование, разработка, инструкции, Linux, Docker, Kubernetes, Python, JavaScript, инфраструктура]
+  author: "IT Блоггер"
+  # author: ["Me", "You"] # multiple authors
+  
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/og-card.png"]
+
+  profileMode:
+    enabled: false
+    title: "IT Блог"
+    imageUrl: "#"
+    imageTitle: "DevOps и Программирование"
+    # imageWidth: 120
+    # imageHeight: 120
+    subtitle: "💻 Код, инфраструктура, опыт"
+    buttons:
+      - name: Статьи
+        url: "/posts/"
+      - name: DevOps
+        url: "/categories/devops/"
+      - name: Обо мне
+        url: "/about/"
+
+  homeInfoParams:
+    Title: "Привет! 👋"
+    Content: |
+      Добро пожаловать на мой IT блог!
+      
+      Здесь вы найдёте статьи о DevOps, программировании, настройке инфраструктуры,
+      технические инструкции и мой опыт разработки.
+
+  socialIcons:
+    - name: "telegram"
+      url: "https://t.me/your_channel"
+    - name: "github"
+      url: "https://github.com/nyamka10"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/your_profile"
+    - name: "rss"
+      url: "/index.xml"
+
+  # label:
+  # text: "Home"
+  # icon: icon.png
+  # iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true 

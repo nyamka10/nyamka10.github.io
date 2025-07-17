@@ -1,0 +1,103 @@
+# Hugo generated files
+/public/
+/resources/
+/.hugo_build.lock
+
+# Hugo cache directory
+hugo_stats.json
+
+# Temporary lock file
+.hugo_build.lock
+
+# Generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Backup files
+*.bak
+*.backup
+backup-content-*.tar.gz
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Hugo development
+.hugo/
+
+# Local configuration files
+config.local.yml
+config.local.yaml
+config.local.toml
+
+# Image processing cache
+/resources/_gen/
+
+# Netlify
+.netlify/
+/netlify.toml
+
+# Vercel
+.vercel
+
+# Build outputs
+dist/
+build/
+
+# Static assets that shouldn't be tracked
+/static/uploads/
+/static/temp/
+
+# Development tools
+.task/ 

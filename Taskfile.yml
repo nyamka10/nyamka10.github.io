@@ -1,0 +1,166 @@
+version: '3'
+
+vars:
+  GREETING: Добро пожаловать в IT блог!
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+      - task --list
+    silent: true
+
+  hello:
+    desc: Показать приветствие
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+
+  install:
+    desc: Установить зависимости проекта
+    cmds:
+      - echo "Установка Hugo темы PaperMod..."
+      - git submodule update --init --recursive
+      - echo "✅ Зависимости установлены!"
+
+  serve:
+    desc: Запустить локальный сервер разработки
+    cmds:
+      - hugo server --buildDrafts --buildFuture --disableFastRender
+
+  serve:prod:
+    desc: Запустить локальный сервер в production режиме
+    cmds:
+      - hugo server --environment production --disableFastRender
+
+  build:
+    desc: Собрать сайт для production
+    cmds:
+      - echo "🔨 Сборка сайта..."
+      - hugo --gc --minify --cleanDestinationDir
+      - echo "✅ Сайт собран в папку ./public"
+
+  build:draft:
+    desc: Собрать сайт включая черновики
+    cmds:
+      - echo "🔨 Сборка сайта с черновиками..."
+      - hugo --buildDrafts --gc --minify --cleanDestinationDir
+      - echo "✅ Сайт собран в папку ./public"
+
+  clean:
+    desc: Очистить папку public и кэш
+    cmds:
+      - echo "🧹 Очистка..."
+      - rm -rf public/
+      - rm -rf resources/
+      - hugo mod clean --all || true
+      - echo "✅ Очистка завершена!"
+
+  new:
+    desc: Создать новый пост (использование: task new -- "Название поста")
+    cmds:
+      - echo "📝 Создание нового поста..."
+      - hugo new posts/{{.CLI_ARGS | default "new-post"}}.md
+      - echo "✅ Пост создан!"
+
+  new:tutorial:
+    desc: Создать новый туториал (использование: task new:tutorial -- "Название туториала")
+    cmds:
+      - echo "🚀 Создание нового туториала..."
+      - hugo new --kind tutorials posts/{{.CLI_ARGS | default "new-tutorial"}}.md
+      - echo "✅ Туториал создан!"
+
+  new:devops:
+    desc: Создать пост о DevOps (использование: task new:devops -- "Название")
+    cmds:
+      - echo "⚙️ Создание DevOps поста..."
+      - hugo new posts/{{.CLI_ARGS | default "new-devops-post"}}.md
+      - echo "✅ DevOps пост создан!"
+
+  deploy:
+    desc: Деплой на GitHub Pages
+    deps: [build]
+    cmds:
+      - echo "🚀 Деплой на GitHub Pages..."
+      - git add .
+      - git commit -m "Update site content - {{now | date "2006-01-02 15:04:05"}}" || true
+      - git push origin main
+      - echo "✅ Деплой завершён!"
+
+  update:
+    desc: Обновить тему и зависимости
+    cmds:
+      - echo "🔄 Обновление темы PaperMod..."
+      - git submodule update --remote --merge
+      - echo "✅ Тема обновлена!"
+
+  lint:
+    desc: Проверить markdown файлы
+    cmds:
+      - echo "🔍 Проверка markdown файлов..."
+      - markdownlint content/**/*.md || echo "⚠️  markdownlint не установлен. Установите: npm install -g markdownlint-cli"
+      - echo "✅ Проверка завершена!"
+
+  stats:
+    desc: Показать статистику сайта
+    cmds:
+      - echo "📊 Статистика сайта:"
+      - echo "Количество постов:" $(find content/posts -name "*.md" | wc -l)
+      - echo "Количество страниц:" $(find content -name "*.md" -not -path "content/posts/*" | wc -l)
+      - echo "Размер папки public:" $(du -sh public/ 2>/dev/null || echo "не собран")
+
+  dev:
+    desc: Режим разработки (сборка + локальный сервер)
+    deps: [clean]
+    cmds:
+      - task: serve
+
+  check:
+    desc: Проверить ссылки и конфигурацию
+    cmds:
+      - echo "🔍 Проверка конфигурации..."
+      - hugo config | head -20
+      - echo "🔍 Проверка ссылок..."
+      - hugo --printPathWarnings
+
+  backup:
+    desc: Создать бэкап контента
+    cmds:
+      - echo "💾 Создание бэкапа..."
+      - tar -czf "backup-content-$(date +%Y%m%d-%H%M%S).tar.gz" content/
+      - echo "✅ Бэкап создан!"
+
+  test:
+    desc: Проверить работоспособность сайта
+    cmds:
+      - echo "🧪 Тестирование сайта..."
+      - hugo --gc --minify --cleanDestinationDir --quiet
+      - echo "✅ Тесты пройдены!"
+
+  docker:build:
+    desc: Собрать Docker образ для сайта
+    cmds:
+      - echo "🐳 Сборка Docker образа..."
+      - docker build -t it-blog .
+      - echo "✅ Docker образ собран!"
+
+  docker:run:
+    desc: Запустить сайт в Docker контейнере
+    cmds:
+      - echo "🐳 Запуск в Docker..."
+      - docker run -p 1313:1313 it-blog
+      
+  help:
+    desc: Показать справку по командам
+    cmds:
+      - echo "💻 IT Блог - DevOps, Программирование, Инструкции"
+      - echo ""
+      - echo "Основные команды:"
+      - echo "  task serve         - Запустить локальный сервер"
+      - echo "  task build         - Собрать сайт"
+      - echo "  task new           - Создать новый пост"
+      - echo "  task new:tutorial  - Создать туториал"
+      - echo "  task new:devops    - Создать DevOps пост"
+      - echo "  task deploy        - Деплой на GitHub Pages"
+      - echo ""
+      - echo "Полный список команд: task --list" 
