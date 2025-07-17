@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:55867/posts/</loc>
+    <loc>https://b.nymk.ru/posts/</loc>
     <lastmod>2025-01-27T19:54:38+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:55867/</loc>
+    <loc>https://b.nymk.ru/</loc>
     <lastmod>2025-01-27T19:54:38+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:55867/posts/pervaya/</loc>
+    <loc>https://b.nymk.ru/posts/pervaya/</loc>
     <lastmod>2025-01-27T19:54:38+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:55867/contacts/</loc>
+    <loc>https://b.nymk.ru/contacts/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55867/about/</loc>
+    <loc>https://b.nymk.ru/about/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url>
 </urlset>

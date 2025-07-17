@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Плюшка с кодом</title>
-    <link>http://localhost:55867/posts/</link>
+    <link>https://b.nymk.ru/posts/</link>
     <description>Recent content in Posts on Плюшка с кодом</description>
     <image>
       <title>Плюшка с кодом</title>
-      <url>http://localhost:55867/%F0%9F%A7%B8</url>
-      <link>http://localhost:55867/%F0%9F%A7%B8</link>
+      <url>https://b.nymk.ru/%F0%9F%A7%B8</url>
+      <link>https://b.nymk.ru/%F0%9F%A7%B8</link>
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 27 Jan 2025 19:54:38 +0300</lastBuildDate>
-    <atom:link href="http://localhost:55867/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://b.nymk.ru/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Привет! Это Костя 👋</title>
-      <link>http://localhost:55867/posts/pervaya/</link>
+      <link>https://b.nymk.ru/posts/pervaya/</link>
       <pubDate>Mon, 27 Jan 2025 19:54:38 +0300</pubDate>
-      <guid>http://localhost:55867/posts/pervaya/</guid>
+      <guid>https://b.nymk.ru/posts/pervaya/</guid>
       <description>Первый пост в блоге о айтишке и всем остальном</description>
     </item>
   </channel>
