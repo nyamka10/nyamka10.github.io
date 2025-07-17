@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ням Ням</title>
-    <link>http://localhost:1314/</link>
-    <description>Recent content on Ням Ням</description>
+    <title>IT блог — DevOps, Программирование, Инструкции</title>
+    <link>https://b.nymk.ru/</link>
+    <description>Recent content on IT блог — DevOps, Программирование, Инструкции</description>
+    <image>
+      <title>IT блог — DevOps, Программирование, Инструкции</title>
+      <url>https://b.nymk.ru/images/og-card.png</url>
+      <link>https://b.nymk.ru/images/og-card.png</link>
+    </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 27 Jan 2025 19:54:38 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://b.nymk.ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Добро пожаловать на мой IT блог!</title>
-      <link>http://localhost:1314/posts/pervaya/</link>
+      <link>https://b.nymk.ru/posts/pervaya/</link>
       <pubDate>Mon, 27 Jan 2025 19:54:38 +0300</pubDate>
-      <guid>http://localhost:1314/posts/pervaya/</guid>
+      <guid>https://b.nymk.ru/posts/pervaya/</guid>
       <description>Первый пост о создании IT блога и планах развития в DevOps</description>
     </item>
     <item>
       <title>Контакты</title>
-      <link>http://localhost:1314/contacts/</link>
+      <link>https://b.nymk.ru/contacts/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/contacts/</guid>
+      <guid>https://b.nymk.ru/contacts/</guid>
       <description>&lt;h1 id=&#34;контакты&#34;&gt;Контакты&lt;/h1&gt;
 &lt;p&gt;Рада общению и всегда открыта для новых знакомств!&lt;/p&gt;
 &lt;h2 id=&#34;как-со-мной-связаться&#34;&gt;Как со мной связаться&lt;/h2&gt;
@@ -52,9 +57,9 @@
     </item>
     <item>
       <title>Обо мне</title>
-      <link>http://localhost:1314/about/</link>
+      <link>https://b.nymk.ru/about/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/about/</guid>
+      <guid>https://b.nymk.ru/about/</guid>
       <description>&lt;h1 id=&#34;обо-мне&#34;&gt;Обо мне&lt;/h1&gt;
 &lt;p&gt;Привет! 👋&lt;/p&gt;
 &lt;p&gt;Меня зовут Ням Ням, и это мой персональный блог о еде, рецептах и всём, что связано с кулинарией.&lt;/p&gt;
