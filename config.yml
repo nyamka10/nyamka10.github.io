@@ -19,10 +19,6 @@ minify:
 # Отключаем навигационное меню
 menu:
   main:
-    - identifier: blog
-      name: "Блог"
-      url: "/posts/"
-      weight: 1
     - identifier: tutorials
       name: "Инструкции"
       url: "/tutorials/"
@@ -66,7 +62,7 @@ params:
   ShowRssButtonInSectionTermList: false
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  ShowToc: true
+  ShowToc: false
   images: ["🧸"]
 
   profileMode:
