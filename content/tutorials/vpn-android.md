@@ -4,6 +4,7 @@ date: 2025-01-27T20:15:00+03:00
 draft: false
 author: "Костя"
 description: "Краткая инструкция по подключению к VPN через WireGuard на Android."
+ShowToc: false
 ---
 
 # Как быстро подключить VPN на Android

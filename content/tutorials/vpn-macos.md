@@ -4,6 +4,7 @@ date: 2025-01-27T20:05:00+03:00
 draft: false
 author: "Костя"
 description: "Краткая инструкция по подключению к VPN через WireGuard на Mac."
+ShowToc: false
 ---
 
 # Как быстро подключить VPN на Mac (macOS)

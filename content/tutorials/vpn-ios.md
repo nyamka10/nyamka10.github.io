@@ -4,6 +4,7 @@ date: 2025-01-27T20:10:00+03:00
 draft: false
 author: "Костя"
 description: "Краткая инструкция по подключению к VPN через WireGuard на iPhone и iPad."
+ShowToc: false
 ---
 
 # Как быстро подключить VPN на iPhone/iPad (iOS)
