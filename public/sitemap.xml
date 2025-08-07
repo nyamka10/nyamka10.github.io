@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://b.nymk.ru/posts/</loc>
-    <lastmod>2025-01-27T19:54:38+03:00</lastmod>
+    <loc>https://b.nymk.ru/tutorials/</loc>
+    <lastmod>2025-01-27T20:15:00+03:00</lastmod>
+  </url><url>
+    <loc>https://b.nymk.ru/tutorials/vpn-android/</loc>
+    <lastmod>2025-01-27T20:15:00+03:00</lastmod>
   </url><url>
     <loc>https://b.nymk.ru/</loc>
+    <lastmod>2025-01-27T20:15:00+03:00</lastmod>
+  </url><url>
+    <loc>https://b.nymk.ru/tutorials/vpn-ios/</loc>
+    <lastmod>2025-01-27T20:10:00+03:00</lastmod>
+  </url><url>
+    <loc>https://b.nymk.ru/tutorials/vpn-macos/</loc>
+    <lastmod>2025-01-27T20:05:00+03:00</lastmod>
+  </url><url>
+    <loc>https://b.nymk.ru/tutorials/vpn-windows/</loc>
+    <lastmod>2025-01-27T20:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://b.nymk.ru/posts/</loc>
     <lastmod>2025-01-27T19:54:38+03:00</lastmod>
   </url><url>
     <loc>https://b.nymk.ru/posts/pervaya/</loc>

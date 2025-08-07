@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>ru</language>
-    <lastBuildDate>Mon, 27 Jan 2025 19:54:38 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 20:15:00 +0300</lastBuildDate>
     <atom:link href="https://b.nymk.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VPN на Android — быстрое подключение</title>
+      <link>https://b.nymk.ru/tutorials/vpn-android/</link>
+      <pubDate>Mon, 27 Jan 2025 20:15:00 +0300</pubDate>
+      <guid>https://b.nymk.ru/tutorials/vpn-android/</guid>
+      <description>Краткая инструкция по подключению к VPN через WireGuard на Android.</description>
+    </item>
+    <item>
+      <title>VPN на iOS — быстрое подключение</title>
+      <link>https://b.nymk.ru/tutorials/vpn-ios/</link>
+      <pubDate>Mon, 27 Jan 2025 20:10:00 +0300</pubDate>
+      <guid>https://b.nymk.ru/tutorials/vpn-ios/</guid>
+      <description>Краткая инструкция по подключению к VPN через WireGuard на iPhone и iPad.</description>
+    </item>
+    <item>
+      <title>VPN на macOS — быстрое подключение</title>
+      <link>https://b.nymk.ru/tutorials/vpn-macos/</link>
+      <pubDate>Mon, 27 Jan 2025 20:05:00 +0300</pubDate>
+      <guid>https://b.nymk.ru/tutorials/vpn-macos/</guid>
+      <description>Краткая инструкция по подключению к VPN через WireGuard на Mac.</description>
+    </item>
+    <item>
+      <title>VPN на Windows — быстрое подключение</title>
+      <link>https://b.nymk.ru/tutorials/vpn-windows/</link>
+      <pubDate>Mon, 27 Jan 2025 20:00:00 +0300</pubDate>
+      <guid>https://b.nymk.ru/tutorials/vpn-windows/</guid>
+      <description>Краткая инструкция по подключению к VPN через WireGuard на Windows.</description>
+    </item>
     <item>
       <title>Привет! Это Костя 👋</title>
       <link>https://b.nymk.ru/posts/pervaya/</link>
